@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="navstyle.css">
+    <script src="https://kit.fontawesome.com/20aab78e48.js" crossorigin="anonymous"></script></head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="Logo.png" alt="logo">
+                </span>
+
+                <!---Nav Bar----->
+
+                <div class="text header-text">
+                    <span class="name">UBT Tutor</span>
+                    <span class="profession">Online Course</span>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-chevron-right toggle"></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                           <input type="search" placeholder="search...">
+                        </i>
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-lin">
+                        <a href="HomeNavBar.html">
+                            <i class="fa-solid fa-house icon"></i>
+                                <span class="text nav-text"> Home </span>
+                        </a>
+                    </li>
+                    <li class="nav-lin">
+                        <a href="Courses.html">
+                            <i class="fa-regular fa-bookmark icon"></i>
+                                <span class="text nav-text"> Courses </span>
+                        </a>
+                    </li>
+                    <li class="nav-lin">
+                        <a href="news.html">
+                           <i class="fa-regular fa-newspaper icon"></i>
+                                <span class="text nav-text">News</span>
+                        </a>
+                    </li>
+                    <li class="nav-lin">
+                        <a href="staff.html">
+                            <i class="fa-solid fa-users icon"></i>
+                                <span class="text nav-text"> Staff </span>
+                        </a>
+                    </li>
+                    <li class="nav-lin">
+                        <a href="aboutus.html">
+                            <i class="fa-solid fa-globe icon"></i>
+                                <span class="text nav-text"> About Us </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="nav-lin">
+                    <a href="LoginPage.html">
+                        <i class="fa-solid fa-right-from-bracket icon"></i>
+                            <span class="text nav-text"> Log Out </span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                       <div class="moon-sun">
+                        <i class="fa-solid fa-moon icon moon"></i>
+                        <i class="fa-regular fa-sun icon sun"></i>
+                       </div>
+                       <span class="mode-text text">Dark Mode</span>
+                       <div class="toggle-switch">
+                            <span class="switch"></span>
+                       </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+      <!--- Perfundimi i Nav Bar----->
+
+
+        <!--- Kurset----->
+
+    <section class="home">
+        
+        <div class="container">
+            <h1>Online Courses</h1>
+
+            <div class="row">
+                <div class="service">
+                    <a href="shk1.html"><i class="fa-solid fa-laptop-code"></i></a>
+                    <h2>Shkenca Kompjuterike dhe Inxhinieri</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Inxhinieri e Mekatronike</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                   <a href="arkitekture.html"><i class="fa-regular fa-building"></i></a>
+                    <h2>Arkitekture dhe Planifikim Hapsinor</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-tooth"></i>
+                    <h2>Stomatologji</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-gavel"></i>
+                    <h2>Juridik</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-regular fa-newspaper"></i>
+                    <h2>Media dhe Komunikim</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-flask-vial"></i>
+                    <h2>Biokimi</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Studime Te Sigurise</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-prescription-bottle-medical"></i>
+                    <h2>Farmaci</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h2>Administrim Biznesi</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-flask"></i>
+                    <h2>Shkencat e Ushqimit dhe Biokimi</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-coins"></i>
+                    <h2>Menaxhim Biznesi dhe Ekonomi</h2>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing.</p>
+                </div>
+            </div>
+        </div>
+
+
+<!--Perfundimi i kurseve --->
+
+
+<!--  Footer ---->
+        
+<footer class="footer">
+    &copy; copyright 2023- UBT Tutor Online
+</footer>
+
+
+</section>
+
+
+    <script src="HomeNavBar.js"></script>
+    
+</body>
+</html>
