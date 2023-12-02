@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<title>NEWS</title>
+</head>
+
+<body>
+    <script>
+        function toggleContent(newsItemId) {
+            var additionalContent = document.getElementById("additional-content-" + newsItemId);
+            if (additionalContent.style.display === "none") {
+                additionalContent.style.display = "block";
+            } else {
+                additionalContent.style.display = "none";
+            }
+        }
+    </script>
+
+    <div class="container">
+        <div class="news-s">
+            <div class="title">
+                <h2>--- News Page ---</h2>
+                <p>
+                    Explore our News Page for the latest updates on curriculum enhancements, new courses, and success
+                    stories from our student community. Stay connected to the pulse of our evolving educational
+                    landscape in just a glance.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="image-section">
+                        <img src="foto3.png" alt="SHKOLLA">
+                    </div>
+                    <div class="content">
+                        <h4>Exciting Partnership with Leading Tech Firm Enhances Coding Curriculum!</h4>
+                        <p>We're thrilled to announce our collaboration with a prominent technology company to revamp
+                            our coding curriculum. Students can now access cutting-edge resources, real-world projects,
+                            and expert insights to stay ahead in the rapidly evolving tech landscape.</p>
+                        <p id="additional-content-1" style="display: none;">
+                            We're thrilled to announce our collaboration with a prominent technology company to revamp
+                            our coding curriculum. Students can now access cutting-edge resources, real-world projects,
+                            and expert insights to stay ahead in the rapidly evolving tech landscape.
+                        </p>
+                        <a href="#" onclick="toggleContent(1);">Read More</a>
+                    </div>
+                    <div class="posted-date">
+                        <p>Posted on Nov 14, 2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-section">
+                        <img src="foto4.png" alt="NEWS">
+                    </div>
+                    <div class="content">
+                        <h4>Innovative Learning Tools Unveiled for Enhanced Math Mastery!</h4>
+                        <p>We've rolled out innovative learning tools to make math more engaging and accessible. With
+                            interactive simulations, personalized quizzes, and step-by-step problem-solving guides,
+                            students can now conquer mathematical challenges with confidence.</p>
+                        <p id="additional-content-2" style="display: none;">
+                            In addition, our commitment to enhancing the learning experience extends to providing
+                            real-time progress tracking, ensuring that students receive personalized feedback and
+                            support to optimize their mathematical proficiency.
+                        </p>
+                        <a href="#" onclick="toggleContent(2);">Read More</a>
+                    </div>
+                    <div class="posted-date">
+                        <p>Posted on Oct 19, 2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-section">
+                        <img src="Achieve.png" alt="UBT">
+                    </div>
+                    <div class="content">
+                        <h4>Student Success Stories: Celebrating Academic Achievements!</h4>
+                        <p>We're delighted to share inspiring success stories from our students who have excelled in
+                            their academic journeys.
+                            These testimonials showcase the impact of personalized tutoring and highlight the
+                            achievements of our dedicated learners.</p>
+                        <p id="additional-content-3" style="display: none;">
+                            Moreover, these success stories underscore our belief in the transformative power of
+                            personalized tutoring, illustrating how our dedicated learners not only overcome academic
+                            challenges but also thrive in their educational pursuits, setting the stage for future
+                            accomplishments.
+                        </p>
+                        <a href="#" onclick="toggleContent(3);">Read More</a>
+                    </div>
+                    <div class="posted-date">
+                        <p>Posted on Apr 1, 2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-section">
+                        <img src="foto1.png" alt="UBT">
+                    </div>
+                    <div class="content">
+                        <h4>New Language Courses Launched : Unlock the World with Multilingual Proficiency!</h4>
+                        <p>Breaking language barriers, our platform introduces an array of new language courses. From
+                            Spanish and Mandarin to Python and Java,
+                            our diverse offerings empower learners to communicate fluently and broaden their global
+                            perspectives.</p>
+                        <p id="additional-content-4" style="display: none;">
+
+                            Embark on a linguistic journey that goes beyond communication skills, as our language
+                            courses also delve into the cultural nuances, ensuring a comprehensive learning experience
+                            that enriches both language proficiency and cultural understanding.
+                        </p>
+                        <a href="#" onclick="toggleContent(4);">Read More</a>
+                    </div>
+                    <div class="posted-date">
+                        <p>Posted on Apr 29, 2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-section">
+                        <img src="foto2.png" alt="UBT">
+                    </div>
+                    <div class="content">
+                        <h4>Introducing Flexible Learning Plans :Tailor Your Education to Your Schedule!</h4>
+                        <p>Recognizing the diverse needs of our students, we've introduced flexible learning plans.
+                            Whether you're a night owl or an early bird, our platform adapts to your schedule,
+                            ensuring that quality education is accessible whenever and wherever you are. </p>
+                        <p id="additional-content-5" style="display: none;">
+                            With our flexible learning plans, students not
+                            only have the freedom to choose their study times but can also seamlessly transition between
+                            subjects, creating a customized learning journey that aligns with their individual academic
+                            goals and aspirations.
+                        </p>
+                        <a href="#" onclick="toggleContent(5);">Read More</a>
+                    </div>
+                    <div class="posted-date">
+                        <p>Posted on Dec 1, 2023</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-section">
+                        <img src="foto022.png" alt="UBT">
+                    </div>
+                    <div class="content">
+                        <h4>Architecture Enthusiasts Rejoice - Comprehensive Design Studio Launched!</h4>
+                        <p>Aspiring architects, rejoice! Our newly launched design studio provides a hands-on approach
+                            to architecture education.
+                            From blueprint analysis to virtual modeling, students can immerse themselves in the world of
+                            design and unleash their creativity.</p>
+                        <p id="additional-content-6" style="display: none;">
+                            Furthermore, our design studio is curated to foster collaboration and real-world
+                            problem-solving, offering a platform where aspiring architects can engage in interactive
+                            projects, receive constructive feedback from industry professionals, and build a portfolio
+                            that reflects their evolving skills and innovative design perspectives.
+                        </p>
+                        <a href="#" onclick="toggleContent(6);">Read More</a>
+                    </div>
+                    <div class="posted-date">
+                        <p>Posted on Oct 25, 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <p>Copyright &copy; 2023 All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
