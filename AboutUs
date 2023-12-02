@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="background-container">
+            <div class="bg-1"></div>
+            <div class="bg-2"></div>
+
+        </div>
+        <div class="about-container">
+
+            <div class="image-container">
+                <img src="progammer.jpg" alt="progammer">
+
+            </div>
+
+            <div class="text-container">
+                <h1>- - ABOUT US - - </h1>
+
+                <p>Welcome to our online tutoring hub, where we're <b>dedicated</b> to turning challenges into
+                    triumphs!
+                    <br> We understand that every student faces <b>unique</b> struggles, which is why our platform
+                    offers
+                    expert <b>tutoring</b> across a wide array of subjects.
+                    Whether it's unraveling the complexities of <b>calculus</b>, mastering a new language, <b>coding</b>
+                    difficulties
+                    and any other concern is <b>welcome</b>!
+                    Our team of skilled tutors is here to provide personalized assistance!.
+                </p><br>
+                <p id="additional-content" style="display: none;">
+                    Our platform is committed to providing the best learning <b>experience</b> for students. We offer a
+                    range
+                    of subjects, personalized tutoring <b>sessions</b>, and flexible schedules to meet your needs.
+                    <b>Join us </b> on
+                    this educational journey!
+                </p>
+                <a href="#" onclick="toggleContent();">Read More</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        function toggleContent() {
+            var additionalContent = document.getElementById("additional-content");
+            if (additionalContent.style.display === "none") {
+                additionalContent.style.display = "block";
+            } else {
+                additionalContent.style.display = "none";
+            }
+        }
+    </script>
+
+
+
+    <footer class="text-center">
+        <p>Copyright &copy; 2023 All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
